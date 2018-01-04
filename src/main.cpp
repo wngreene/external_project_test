@@ -12,5 +12,6 @@
 
 int main(int argc, char *argv[]) {
   std::cout << external_project_test::blah() << std::endl;
+  std::cout << external_project_test::blah2() << std::endl;
   return 0;
 }

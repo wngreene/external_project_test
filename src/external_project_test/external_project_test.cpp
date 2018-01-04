@@ -10,8 +10,16 @@
 
 namespace external_project_test {
 
+/**
+ * @brief Return dummy string.
+ */
 std::string blah() {
   return "Hello world!";
+}
+
+float blah2() {
+  Eigen::Vector2f zort(1.1, 1.1);
+  return zort.norm();
 }
 
 }  // namespace external_project_test

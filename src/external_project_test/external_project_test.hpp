@@ -10,8 +10,12 @@
 
 #include <string>
 
+#include <Eigen/Core>
+
 namespace external_project_test {
 
 std::string blah();
+
+float blah2();
 
 }  // namespace external_project_test
